@@ -9,7 +9,7 @@ app = FastAPI()
 # Set up CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace "*" with your frontend's origin in production
+    allow_origins=["https://gst-bill-ayushaggarwal1.netlify.app/"],  # Replace "*" with your frontend's origin in production
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
